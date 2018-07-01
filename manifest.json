@@ -1,0 +1,15 @@
+{
+  "name": "MarXiv",
+  "version": "1.0",
+  "description": "Automatic Mirror Site!",
+  "permissions": [
+    "webRequest",
+    "*://arxiv.org/*",
+    "*://www.arxiv.org/*",
+    "webRequestBlocking"
+  ],
+  "background": {
+      "scripts": ["backgroud.js"]
+  },
+  "manifest_version": 2
+}
